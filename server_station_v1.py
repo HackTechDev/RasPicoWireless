@@ -45,6 +45,8 @@ s = socket.socket()
 s.bind(addr)
 s.listen(1)
 
+stateis = ""
+
 print('listening on', addr)
 
 # Listen for connections
